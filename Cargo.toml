@@ -1,0 +1,16 @@
+[package]
+name = "rust-tetris"
+version = "0.1.0"
+authors = ["yijie <yijie@aliyun.com>"]
+edition = "2018"
+
+[profile.release]
+lto = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+piston_window = "0.107.0"
+find_folder = "0.3.0"
+clap = "2.33.0"
+rand = "0.7.0"
